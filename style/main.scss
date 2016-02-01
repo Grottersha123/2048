@@ -10,9 +10,9 @@ $tile-border-radius: 3px;
 $mobile-threshold: $field-width + 20px;
 
 $text-color: #776E65;
-$bright-text-color: #f9f6f2;
+$bright-text-color: #eee4da;
 
-$tile-color: #eee4da;
+$tile-color: #f9f6f2;
 $tile-gold-color: #edc22e;
 $tile-gold-glow-color: lighten($tile-gold-color, 15%);
 
@@ -126,7 +126,7 @@ h1.title {
   line-height: $height + 22px;
   font-weight: bold;
   border-radius: 3px;
-  color: white;
+  color: black;
   margin-top: 8px;
   text-align: center;
 
