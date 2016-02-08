@@ -2,8 +2,23 @@
 window.requestAnimationFrame(function () {
   new GameManager(4, KeyboardInputManager, HTMLActuator, LocalStorageManager);
 });
+var AudioTrack = new Audio();
+var Flag = false;
+
 function soundClick() {
-  var audio = new Audio(); // Создаём новый элемент Audio
-  audio.src = 'C:/Users/Анастасия/Udacity/2048/audi/with.mp3'; // Указываем путь к звуку "клика"
-  audio.autoplay = true; // Автоматически запускаем
+  if (Flag == true)
+  {
+  	AudioTrack.pause();
+  	delete AudioTrack;
+  	Flag = false;
+  }
+  else
+  {
+  	AudioTrack = new Audio();
+  	AudioTrack.src = 'audi/with.mp3'; // Указываем путь к звуку "клика"
+  	AudioTrack.autoplay = true; // Автоматически запускаем
+  	Flag = true;
+  }
+
+ 
 }

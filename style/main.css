@@ -260,7 +260,7 @@ hr {
     border-radius: 3px;
     padding: 0 20px;
     text-decoration: none;
-    color: #f9f6f;
+    color: #f9f6f2;
     height: 40px;
     line-height: 42px;
     cursor: pointer;
@@ -991,7 +991,7 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
 }
 .restart-button, a.retry-button {
   display: inline-block;
-  background: #1e6477;
+  background: #1e6473;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -1004,6 +1004,23 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
   margin-top: 7px;
 }
 
+.button {
+  display: inline-block;
+  background: #1e6423;
+  border-radius: 10px;
+  padding: 0 40px;
+  text-decoration: none;
+  color: #f9f6f2;
+  line-height: 50px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  float: right; 
+  margin-top: 10px;
+  margin-right: 500px;
+}
+
+
 a.retry-button, a.learn-low {
   width: 150px;
   height: 40px;
@@ -1011,7 +1028,7 @@ a.retry-button, a.learn-low {
   border-radius: 0;
   background-color:black;
   display: inline-block;
-  margin: 0;
+  margin-right:170px;
   line-height: 42px;
 }
 
